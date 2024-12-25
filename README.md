@@ -138,10 +138,10 @@ House_Age negatively correlates with price.
 
 Repository Structure
 
-project-root/
-├── house.csv             # Dataset
-├── polynomial_regression.py # Implementation code
-├── README.md             # Project documentation
+project-root/<br>
+├── house.csv             # Dataset<br>
+├── polynomial_regression.py # Implementation code<br>
+├── README.md             # Project documentation<br>
 
 Usage
 
