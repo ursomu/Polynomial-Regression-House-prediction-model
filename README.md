@@ -1,4 +1,4 @@
-#Polynomial Regression Project
+Polynomial Regression Project
 
 Overview
 
@@ -20,7 +20,7 @@ The dataset contains the following columns:
 
    Number of samples: 150
 
-#Feature Summary:
+Feature Summary:
 
 House_Size: Mean = 2316.3, Std = 995.14
 
@@ -30,9 +30,9 @@ House_Age: Mean = 27.19, Std = 13.56
 
 Price: Mean = 391418.33, Std = 155541.97
 
-##Methodology
+Methodology
 
-##1. Data Preprocessing
+1. Data Preprocessing
 
 The dataset is loaded using Pandas.
 
@@ -44,13 +44,13 @@ Target: Price
 
 Scatter plots are created to visualize the relationship between features and the target variable.
 
-##2. Polynomial Transformation
+2. Polynomial Transformation
 
 Features are transformed using PolynomialFeatures with degree 2.
 
 This captures non-linear relationships between features and the target variable.
 
-##3. Modeling
+3. Modeling
 
 Linear Regression
 
@@ -80,7 +80,7 @@ Lasso Regression
 
 Adds an L1 penalty to encourage feature selection.
 
-##Performance:
+Performance:
 
 Test MSE: 4370.20
 
@@ -88,11 +88,11 @@ ElasticNet Regression
 
 Combines L1 and L2 penalties to balance feature selection and regularization.
 
-##Performance:
+Performance:
 
 Test MSE: 140222004.70
 
-##4. Coefficient Analysis
+4. Coefficient Analysis
 
 Ridge regression coefficients:
 
@@ -138,7 +138,7 @@ House_Age negatively correlates with price.
 
 Repository Structure
 
-##project-root/<br>
+project-root/<br>
 ├── house.csv             # Dataset<br>
 ├── main.py # Implementation code<br>
 ├── README.md             # Project documentation<br>
