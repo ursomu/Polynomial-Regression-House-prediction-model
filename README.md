@@ -1,10 +1,10 @@
-##Polynomial Regression Project
+#Polynomial Regression Project
 
 Overview
 
 This project implements polynomial regression to model the relationship between house features and their prices. The dataset consists of attributes like House_Size, Number_of_Bedrooms, and House_Age as features, and Price as the target variable. Various regression techniques, including Linear Regression, Ridge Regression, Lasso Regression, and ElasticNet Regression, are applied to analyze and improve model performance.
 
-##Dataset
+Dataset
 
 The dataset contains the following columns:
 
@@ -20,7 +20,7 @@ The dataset contains the following columns:
 
    Number of samples: 150
 
-##Feature Summary:
+#Feature Summary:
 
 House_Size: Mean = 2316.3, Std = 995.14
 
